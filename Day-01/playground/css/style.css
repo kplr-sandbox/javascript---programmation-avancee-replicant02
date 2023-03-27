@@ -1,0 +1,17 @@
+body {
+    background-image: url('../images/oceanimage.jpg');
+}
+
+h1.important {
+  color: red;
+  text-align: center;
+}
+
+#id {color:blue}
+
+h1{color:green}
+h1 em{color:grey}
+
+a:visited{color: brown;}
+
+p::first-line{color:yellow}

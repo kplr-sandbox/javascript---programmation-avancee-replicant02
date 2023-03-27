@@ -1,0 +1,51 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  color: cornflowerblue;
+}
+a:hover {
+  color: darkmagenta;
+}
+
+#header {
+  background-color: #f7f7f7;
+  text-align: left;
+  display: flex;
+}
+
+#header .nom {
+  font-weight: 800;
+  font-size: 18px;
+  padding: 15px;
+}
+
+#menu {
+  display: flex;
+}
+
+.menu-ul {
+  list-style: none;
+  margin: auto;
+}
+
+.menu-ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+#content {
+  background-image: url("../images/oceanimage.jpg");
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenu {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
