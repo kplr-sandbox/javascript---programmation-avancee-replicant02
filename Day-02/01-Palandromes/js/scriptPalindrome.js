@@ -1,4 +1,4 @@
-//PALINDROME
+//------------------------- EXERCICE PALINDROME -------------------------//
 
 // fonction pour enlever les accents
 // SOURCE : https://www.30secondsofcode.org/js/s/remove-accents/
@@ -28,6 +28,10 @@ let motATester = prompt(
 
 if (isPalindrome(motATester)) {
   console.log("c'est un palindrome");
+  document.querySelector("#placeholder-resultat").innerHTML =
+    "c'est un palindrome";
 } else {
   console.log("désolé ce n'est pas un palindrome");
+  document.querySelector("#placeholder-resultat").innerHTML =
+    "désolé ce n'est pas un palindrome";
 }
