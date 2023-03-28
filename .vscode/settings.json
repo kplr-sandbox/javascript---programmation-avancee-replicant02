@@ -1,6 +1,5 @@
 {
   "editor.formatOnSave": true,
-  "livePreview.defaultPreviewPath": "/Day-02/playground/index.html",
   "workbench.startupEditor": "none",
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
