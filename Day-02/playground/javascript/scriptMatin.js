@@ -78,6 +78,8 @@ for (chiffreMultiplicateur of multiplicateurs) {
 }
 */
 
+//------------------------- TABLE MULTIPLICATION AVEC OBJET -------------------------//
+
 const maxMultiplicateur = 10;
 let listeMultiplicateur = {};
 
