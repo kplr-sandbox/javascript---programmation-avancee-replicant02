@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: 'Roboto', open-sans;
+  font-family: "Roboto", open-sans;
 }
 
 body {
@@ -76,4 +76,15 @@ header {
 #calc-actions {
   margin-top: 1rem;
   text-align: center;
+}
+
+.line-button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+button#btn-result {
+  width: 100%;
+}
+button#btn-clear {
+  margin-left: 10px;
 }

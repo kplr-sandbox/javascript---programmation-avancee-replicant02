@@ -19,15 +19,23 @@
     <section id="calculator">
       <input type="number" id="input-number" />
       <div id="calc-actions">
-        <button type="button" id="btn-add">+</button>
-        <button type="button" id="btn-subtract">-</button>
-        <button type="button" id="btn-multiply">*</button>
-        <button type="button" id="btn-divide">/</button>
+        <div class="line-button">
+          <button type="button" id="btn-add">+</button>
+          <button type="button" id="btn-subtract">-</button>
+          <button type="button" id="btn-multiply">*</button>
+          <button type="button" id="btn-divide">/</button>
+          <button type="button" id="btn-clear">C</button>
+        </div>
+        <div class="line-button">
+          <button type="button" id="btn-result">=</button>
+        </div>
       </div>
     </section>
     <section id="results">
       <h2 id="current-calculation">0</h2>
       <h2>Resultat: <span id="current-result">0</span></h2>
     </section>
+
+    <script src="assets/scripts/vendor.js"></script>
   </body>
 </html>
