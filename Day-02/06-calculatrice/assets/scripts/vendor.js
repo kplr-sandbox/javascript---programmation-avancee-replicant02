@@ -30,6 +30,11 @@ function clear() {
   userInput.value = "";
 }
 
+function operandeSuivante() {
+  operande1ok = true;
+  userInput.value = "";
+}
+
 function calculOperation(action) {
   switch (action) {
     case "PLUS":
@@ -68,27 +73,27 @@ clearBtn.addEventListener("click", function () {
 });
 
 addBtn.addEventListener("click", function () {
-  operande1ok = true;
   operation = "PLUS";
+  operandeSuivante();
   console.log(operation);
 });
 subtractBtn.addEventListener("click", function () {
-  operande1ok = true;
   operation = "MINUS";
+  operandeSuivante();
   console.log(operation);
 });
 multiplyBtn.addEventListener("click", function () {
-  operande1ok = true;
   operation = "MULT";
+  operandeSuivante();
   console.log(operation);
 });
 divideBtn.addEventListener("click", function () {
-  operande1ok = true;
   operation = "DIV";
+  operandeSuivante();
   console.log(operation);
 });
 
 resultBtn.addEventListener("click", function () {
-  document.getElementById("input-number").value = calculOperation(operation);
+  userInput.value = calculOperation(operation);
   console.log("CALCUL");
 });
