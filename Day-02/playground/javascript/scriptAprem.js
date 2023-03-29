@@ -27,3 +27,12 @@ buttonCacher.addEventListener("click", function () {
 buttonRetour.addEventListener("click", function () {
   voiture.style.paddingLeft = 0;
 });
+
+function move(objetABouger, nombrePas, pixelsDeplacement) {
+  if (!objetABouger.style.paddingLeft) {
+    objetABouger.style.paddingLeft = `${pixelsDeplacement}px`;
+  } else {
+    objetABouger.style.paddingLeft =
+      parseInt(objetABouger.style.paddingLeft) + 10 + "px";
+  }
+}
